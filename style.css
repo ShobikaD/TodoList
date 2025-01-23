@@ -1,0 +1,94 @@
+:root {
+    --bg-color: #d9d0d0;
+    --text-color: #333;
+    --card-color: #d0d0dddb;
+    --button-color: #007bff;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#todo-app {
+    background: var(--card-color);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input-section input,
+.input-section select,
+.input-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+.input-section button {
+    background-color: var(--button-color);
+    color: white;
+    cursor: pointer;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#task-list li .category {
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+}
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.remove-btn:hover {
+    background-color: #cc0000;
+}
+.clear-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.clear-btn:hover {
+    background-color: #cc0000;
+}
