@@ -18,5 +18,3 @@ A sleek, lightweight, and highly interactive To-Do List web application built us
 - **HTML5:** Semantic architecture managing inputs, buttons, and responsive container areas.
 - **CSS3:** Custom layout design featuring smooth interactive hover effects and distinct styling for completed task items.
 - **JavaScript (ES6):** Core application engine handling DOM query selectors, active event listeners (`click`, `submit`), dynamic element creation (`createElement`), and list state manipulation.
-
----
