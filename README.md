@@ -20,9 +20,3 @@ A sleek, lightweight, and highly interactive To-Do List web application built us
 - **JavaScript (ES6):** Core application engine handling DOM query selectors, active event listeners (`click`, `submit`), dynamic element creation (`createElement`), and list state manipulation.
 
 ---
-
-## 📦 Local Installation & Setup
-
-1. **Clone the repository workspace:**
-   ```bash
-   git clone [https://github.com/ShobikaD/TodoList.git](https://github.com/ShobikaD/TodoList.git)
